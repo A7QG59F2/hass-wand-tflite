@@ -9,11 +9,14 @@ A small TensorFlow Lite server for the Magic Caster Wand integration's Spell Tra
 3. In **Settings → Devices & services → Magic Caster Wand → Configure**, set
    **TFLite Server URL** to:
 
-   `http://local-wand-tflite:8000`
+   `http://f6155c63-wand-tflite:8000` (installed from the GitHub repository)
+
+   `http://local-wand-tflite:8000` (installed as a local add-on from `/addons`)
 
 4. Turn on the wand's **Connect** switch, then **Spell Tracking**.
 
-Models are stored in `/addon_configs/local_wand_tflite/models/`, so you can also copy a model there over Samba.
+Models are stored in the add-on's config folder under `/addon_configs/` (in a `models` subfolder),
+so you can also copy a model there over Samba.
 
 ## API
 
