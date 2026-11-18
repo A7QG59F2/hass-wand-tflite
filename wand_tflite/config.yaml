@@ -1,0 +1,17 @@
+name: Wand TFLite Server
+version: "1.0.0"
+slug: wand_tflite
+description: Small TensorFlow Lite server for Magic Caster Wand spell recognition
+startup: services
+boot: auto
+arch:
+  - amd64
+  - aarch64
+map:
+  - addon_config:rw
+ingress: true
+ingress_port: 8000
+panel_icon: mdi:magic-staff
+panel_title: Wand Model
+options: {}
+schema: {}
